@@ -6,8 +6,8 @@
 <mapper namespace="com.kuang.dao.UserMapper"><!--与UserMapper绑定，重写id为getUserList的方法-->
 
     <resultMap id="userMap" type="user">
-        <id property="id" column="id" />
-        <result property="name" column="name"/>
+<!--        <id property="id" column="id" />
+        <result property="name" column="name"/>-->
         <result property="passwd" column="pwd"/>
     </resultMap>
 
